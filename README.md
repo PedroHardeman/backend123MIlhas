@@ -1,20 +1,18 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Clone o projeto
+Entre no repositório clonado
+Dê o comando `yarn start` e deverá ver as seguintes linhas:
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+* yarn run v1.22.18
+* $ nodemon index
+* [nodemon] 2.0.12
+* [nodemon] to restart at any time, enter `rs`
+* [nodemon] watching path(s): *.*
+* [nodemon] watching extensions: js,mjs,json
+* [nodemon] starting `node index index.js`
+* Listening on port 3333!
+* Environment: development`
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Isso significa que o backend está rodando na porta 3333!
+Agora é só fazer a comunicação pelo front usando esta porta para receber os resultados!
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Boa sorte
